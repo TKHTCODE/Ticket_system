@@ -1,0 +1,30 @@
+{
+  "name": "ticket_system",
+  "version": "1.0.0",
+  "description": "Support ticket app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TKHTCODE/Ticket_system.git"
+  },
+  "author": "Takahito Suzuki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TKHTCODE/Ticket_system/issues"
+  },
+  "homepage": "https://github.com/TKHTCODE/Ticket_system#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
