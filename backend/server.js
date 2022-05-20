@@ -15,7 +15,8 @@ app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
 app.get('/', (req,res) => {
-    res.sendFile(__dirname + '/login');
+    console.log('../frontend/pages/Login')
+    res.sendFile('../../frontend/pages/Login');
 })
 
 app.use('/api/users', require('./routes/userRoutes'))
