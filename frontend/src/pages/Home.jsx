@@ -23,7 +23,18 @@ function Home() {
       </>
     );
   } else {
-    return <h1>Welcome to Support ticket sytem</h1>;
+    return (
+      <div className="card text-white">
+        <img
+          className="card-img"
+          src="https://taka-portfolio.s3.us-west-1.amazonaws.com/q-and-a.jpg"
+          alt="hero img"
+        />
+        <div className="card-img-overlay">
+          <h1 className="card-title text-center">Welcome to Ticket system</h1>
+        </div>
+      </div>
+    );
   }
 }
 
