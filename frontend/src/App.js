@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Router>
-        <div className="container-fluid bg-light">
+        <div className="container-fluid bg-light p-0">
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />

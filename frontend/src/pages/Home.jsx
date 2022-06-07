@@ -24,14 +24,12 @@ function Home() {
     );
   } else {
     return (
-      <div className="card text-white">
-        <img
-          className="card-img"
-          src="https://taka-portfolio.s3.us-west-1.amazonaws.com/q-and-a.jpg"
-          alt="hero img"
-        />
-        <div className="card-img-overlay">
-          <h1 className="card-title text-center">Welcome to Ticket system</h1>
+      <div class="video-container">
+        <video src="https://taka-portfolio.s3.us-west-1.amazonaws.com/ticket_system_cover.mp4" autoPlay playsInline muted loop />
+        <div class="video-text d-flex align-items-center justify-content-center">
+          <h1 class="text-center text-white text-large">
+            Support Ticket System
+          </h1>
         </div>
       </div>
     );
